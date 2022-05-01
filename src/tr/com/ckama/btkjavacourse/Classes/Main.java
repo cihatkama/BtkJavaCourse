@@ -25,6 +25,10 @@ public class Main {
 
         System.out.println(sayi2);
 
+        // diziler ve sınıflar referans tiptir. new keywordü kullanıldığı anda heapte alan açılır.
+        int nums[] = new int[] {42, 13, 35, 22};
+
+
     }
 
 }
